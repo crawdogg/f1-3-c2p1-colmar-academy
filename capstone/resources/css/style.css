@@ -1,0 +1,279 @@
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    margin: 0;
+    padding-top: 0;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    background-color: white;
+    
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    flex-grow: 1;
+}
+
+.logo img {
+    height: 32px;
+}
+
+.colmar {
+    color: black;
+}
+
+.academy {
+    color: darkgray;
+}
+
+header nav {
+    display: flex;
+}
+
+nav ul {
+    margin: auto 24px auto auto;
+}
+
+nav ul li {
+    justify-content: space-between;
+    display: inline-block;
+    padding 16px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.flex-container {
+    display: flex;
+    background-color: lightgray
+}
+
+
+.banner {
+    padding: 32px 24px 32px 24px;
+    width: 60%;
+
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 64px;
+    height: 600px;
+}
+
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-content h1 {
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 44px;
+    opacity: .7;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    opacity: .6;
+    font-size: 24px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #544646;
+    color: white;
+    padding: 8px 50px 8px 50px;
+    width: 350px;
+    
+}
+
+.practice-container {
+    display: flex;   
+}
+
+.information { 
+    width: 950px;
+}
+
+.information img {
+    padding: 32px 24px 32px 24px;
+    width: 900px;
+}
+
+
+
+
+h2 {
+    margin: auto auto 24px 24px;
+    font-weight: bold;
+    font-size: 30px;
+    opacity: .75;
+}
+
+
+.information p {
+    font-size: 24px;
+    opacity: .6;
+    margin: auto auto 32px 24px;
+}
+
+.information h6 {
+    margin: auto auto 32px 24px; 
+}
+
+.information-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-specs {
+    border: 1px solid lightgrey;
+    display: flex;
+    height: 100%;
+}
+
+.detail-info {
+    text-align: center;
+    align-self: center;
+}
+
+.detail-info h3{
+    font-weight: bold;
+    font-size: 24px;
+    opacity: .6;
+    margin-left: 0px;
+    padding: 16px 0px;
+}
+
+.detail-info p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.info-pics {
+    width: 70%;
+    height: auto;
+    margin: 20px;
+}
+
+.detail-info a {
+    color: blue;
+}
+
+#guest {
+    background-color: lightgrey;
+}
+
+.img-div {
+    margin-right: -0px;
+    padding-right: 
+}
+
+.learning {
+    background-color: lightgray;
+}
+
+.learning h2 {
+    margin: 32px auto 32px auto;
+    padding-top: 32px;
+    text-align: center;
+}
+
+.boxes {
+    background-color: white;
+    margin: 16px 32px 16px 32px;
+}
+
+.boxes img {
+    height: auto;
+}
+
+.learning-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 32px;
+}
+
+.learn-detail h3 {
+    font-size: 24px;
+    margin: 16px;
+    font-weight: bold;
+    opacity: .8;
+}
+
+.learn-detail p {
+    font-size: 20px;
+    margin: 8px 16px;
+    opacity: .6;
+}
+
+.exhibit h2 {
+    margin: 32px auto 32px auto;
+    padding-top: 32px;
+    text-align: center;
+}
+
+.exhibit video {
+    width: 100%;
+    padding: 32px 24px 32px 24px;
+}
+
+.exhibit-box {
+    display: flex;
+}
+
+.exhibit-video {
+    width: 60%;
+}
+
+footer {
+    margin: 16px 24px 24px 24px;
+}
+
+.exhibit-sidebox {
+    margin: 16px auto;
+}
+
+#fisma {
+    background-color: lightgray;
+}
+
+#fisma h3 {
+    padding-right: 20px;
+}
+
+   .mobile {
+        display: none;
+    }
+    
+
+
+@media only screen and (max-width: 750px) {
+    header {
+        display: none;
+    }
+    
+    .mobile {
+        
+    }
+}
